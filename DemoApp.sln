@@ -3,7 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsArticles.Hosts.Api", "src\NewsArticles\Hosts\NewsArticles.Hosts.Api\NewsArticles.Hosts.Api.csproj", "{58E64DDA-80AC-44E2-8ED3-BD7D0DEC5481}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsArticles.Hosts.Api", "src\NewsArticles\Hosts\NewsArticles.Hosts.Api\NewsArticles.Hosts.Api.csproj", "{58E64DDA-80AC-44E2-8ED3-BD7D0DEC5481}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E79D2FCE-E6E0-4C35-A0C2-2F9E37004D4E} = {E79D2FCE-E6E0-4C35-A0C2-2F9E37004D4E}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{780EA141-F073-4E7B-8863-2025DA606043}"
 EndProject
@@ -21,19 +24,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{AC3BDCC7-949C-4156-BA19-223BA5D2EDB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsArticles.Domain", "src\NewsArticles\Domain\NewsArticles.Domain\NewsArticles.Domain.csproj", "{C3F8152B-3E75-4B6D-A734-6BD20A2F1410}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsArticles.Domain", "src\NewsArticles\Domain\NewsArticles.Domain\NewsArticles.Domain.csproj", "{C3F8152B-3E75-4B6D-A734-6BD20A2F1410}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsArticles.Contracts", "src\NewsArticles\Contracts\NewsArticles.Contracts\NewsArticles.Contracts.csproj", "{E79D2FCE-E6E0-4C35-A0C2-2F9E37004D4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsArticles.Contracts", "src\NewsArticles\Contracts\NewsArticles.Contracts\NewsArticles.Contracts.csproj", "{E79D2FCE-E6E0-4C35-A0C2-2F9E37004D4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsArticles.Clients", "src\NewsArticles\Clients\NewsArticles.Clients\NewsArticles.Clients.csproj", "{0B6D6522-555C-4F2E-B11B-CC51F5812F19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsArticles.Clients", "src\NewsArticles\Clients\NewsArticles.Clients\NewsArticles.Clients.csproj", "{0B6D6522-555C-4F2E-B11B-CC51F5812F19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsArticles.Application.AppServices", "src\NewsArticles\Application\NewsArticles.Application.AppServices\NewsArticles.Application.AppServices.csproj", "{6F09E599-91D4-4BC7-A1D5-7D90EC562378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsArticles.Application.AppServices", "src\NewsArticles\Application\NewsArticles.Application.AppServices\NewsArticles.Application.AppServices.csproj", "{6F09E599-91D4-4BC7-A1D5-7D90EC562378}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsArticles.Infrastructure.DataAccess", "src\NewsArticles\Infrastructure\NewsArticles.Infrastructure.DataAccess\NewsArticles.Infrastructure.DataAccess.csproj", "{4B08611D-736B-4965-957A-0E0C25F7B274}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsArticles.Infrastructure.DataAccess", "src\NewsArticles\Infrastructure\NewsArticles.Infrastructure.DataAccess\NewsArticles.Infrastructure.DataAccess.csproj", "{4B08611D-736B-4965-957A-0E0C25F7B274}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsArticles.Infrastructure", "src\NewsArticles\Infrastructure\NewsArticles.Infrastructure\NewsArticles.Infrastructure.csproj", "{FC574875-8ADF-42BB-9B59-92E590310B72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsArticles.Infrastructure", "src\NewsArticles\Infrastructure\NewsArticles.Infrastructure\NewsArticles.Infrastructure.csproj", "{FC574875-8ADF-42BB-9B59-92E590310B72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsArticles.Infrastructure.ComponentRegister", "src\NewsArticles\Infrastructure\NewsArticles.Infrastructure.ComponentRegister\NewsArticles.Infrastructure.ComponentRegister.csproj", "{A19474F5-A3CD-4D78-98B6-0A1EE7E6082B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsArticles.Infrastructure.ComponentRegister", "src\NewsArticles\Infrastructure\NewsArticles.Infrastructure.ComponentRegister\NewsArticles.Infrastructure.ComponentRegister.csproj", "{A19474F5-A3CD-4D78-98B6-0A1EE7E6082B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
