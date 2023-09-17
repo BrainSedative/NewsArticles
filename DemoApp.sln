@@ -38,6 +38,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsArticles.Infrastructure
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsArticles.Infrastructure.ComponentRegister", "src\NewsArticles\Infrastructure\NewsArticles.Infrastructure.ComponentRegister\NewsArticles.Infrastructure.ComponentRegister.csproj", "{A19474F5-A3CD-4D78-98B6-0A1EE7E6082B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsArticles.Hosts.Migrations", "src\NewsArticles\Hosts\NewsArticles.Hosts.Migrations\NewsArticles.Hosts.Migrations.csproj", "{CBBE7830-C2AA-4E7D-BE03-A5A6FA7F82A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +78,10 @@ Global
 		{A19474F5-A3CD-4D78-98B6-0A1EE7E6082B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A19474F5-A3CD-4D78-98B6-0A1EE7E6082B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A19474F5-A3CD-4D78-98B6-0A1EE7E6082B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBE7830-C2AA-4E7D-BE03-A5A6FA7F82A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBE7830-C2AA-4E7D-BE03-A5A6FA7F82A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBE7830-C2AA-4E7D-BE03-A5A6FA7F82A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBE7830-C2AA-4E7D-BE03-A5A6FA7F82A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -96,6 +102,7 @@ Global
 		{4B08611D-736B-4965-957A-0E0C25F7B274} = {FD299815-7630-41A6-A8D6-D9B03BB9B894}
 		{FC574875-8ADF-42BB-9B59-92E590310B72} = {FD299815-7630-41A6-A8D6-D9B03BB9B894}
 		{A19474F5-A3CD-4D78-98B6-0A1EE7E6082B} = {FD299815-7630-41A6-A8D6-D9B03BB9B894}
+		{CBBE7830-C2AA-4E7D-BE03-A5A6FA7F82A1} = {11B644FD-9CB1-4A80-8E46-89DEBAF10D58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2E50A2C6-D91B-4713-B256-96607698180E}

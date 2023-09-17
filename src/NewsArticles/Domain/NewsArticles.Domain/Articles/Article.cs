@@ -10,7 +10,7 @@ namespace NewsArticles.Domain.Articles
     /// <summary>
     /// Сущность статей.
     /// </summary>
-    internal class Article : BaseEntity
+    public class Article : BaseEntity
     {
         /// <summary>
         /// Заголовк

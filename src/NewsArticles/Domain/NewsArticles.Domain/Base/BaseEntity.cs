@@ -9,7 +9,7 @@ namespace NewsArticles.Domain.Base
     /// <summary>
     /// Базовый контракт
     /// </summary>
-    internal class BaseEntity
+    public class BaseEntity
     {
         /// <summary>
         /// Идентификатор сущности

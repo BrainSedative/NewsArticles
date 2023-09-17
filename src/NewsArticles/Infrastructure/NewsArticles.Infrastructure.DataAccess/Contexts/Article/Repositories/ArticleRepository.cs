@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Dashboard.InfrastructureDataAccess.Contexts.Post.Repositories
 {
-    public class PostRepository : IArticleRepository
+    public class ArticletRepository : IArticleRepository
     {
         public Task<ArticleDto> GetByIdAsync(Guid id, CancellationToken cancellationToken)
         {
